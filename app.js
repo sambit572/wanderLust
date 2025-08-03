@@ -68,7 +68,7 @@ const sessionOptions={
 };
 
 app.get("/",(req,res)=>{
-    res.send("app has started");
+    res.render("/listings");
 });
 
 app.use(
